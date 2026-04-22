@@ -1,7 +1,7 @@
 # TELEMETRY DATA INTERFACE 
 
 The repo contains firmware for sending data over UART across the linux ecosystem. 
-The path for the TTY device are defined as device. Edit the string to point the program to the right device. 
+The path for the TTY device is defined as device in **firmware.c**. Edit the string to point the program to the right device. 
 
 # Purpose 
 
