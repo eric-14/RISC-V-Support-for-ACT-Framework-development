@@ -1,0 +1,10 @@
+int termioshealth(int fd, struct termios* config); 
+int checkspeed(int speed,struct termios* config); 
+int enableparity(struct termios* config, int parity); 
+int setstopbit(struct termios* config, int stop); 
+int setdatabits(struct termios* config, int numberofbits); 
+int updateattributes(struct termios* config, int fd); 
+int validateupdate(struct termios* config, struct termios* temp, int fd); 
+int sendmessage(int fd, const char* msg, int n); 
+int blockingrecv(int fd, char* buf, int len); 
+int nonblockingrecv(int fd, char* buf, int len); 
