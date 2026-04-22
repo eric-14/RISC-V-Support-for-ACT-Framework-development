@@ -13,7 +13,7 @@ The code has been compiled using gcc version 13.3.0 in Ubuntu 6.17.0.
 
 To run the code. 
 - Clone the repo 
-    ```git clone ``` 
+    ```git clone https://github.com/eric-14/RISC-V-Support-for-ACT-Framework-development.git``` 
 - Navigate to the Termios folder and compile the firmware. 
     ```gcc firmware.c -o firmware```
 
